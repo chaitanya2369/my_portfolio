@@ -244,7 +244,7 @@ img{
 }
 
 .project1{
-    background-image: url(hospital\ logo4.jpg);
+    background-image: url(/hospital\ logo4.jpg);
     background-size:cover;
     background-repeat: no-repeat;
 
@@ -388,6 +388,9 @@ button:hover{
     header{
         height: 30px;
     }
+    #details{
+        width: auto;
+    }
     #home h1{
         font-size: 40px;
     }
@@ -449,6 +452,9 @@ button:hover{
     #portfolio h1{
         margin-bottom: 25px;
     }
+    #portfolio {
+        padding:0%;
+    }
     
 }
 @media (max-width:530px){
@@ -460,9 +466,22 @@ button:hover{
     #experience{
         transform: scale(0.8);
     }
+    #portfolio{
+        transform: scale(0.9);
+    }
 }
 @media (max-width:500px){
     #experience{
         transform: scale(0.7);
+    }
+}
+@media (max-width:400px){
+    #experience{
+        transform: scale(0.6);
+    }
+}
+@media (max-width:300px){
+    #experience{
+        transform: scale(0.5);
     }
 }
