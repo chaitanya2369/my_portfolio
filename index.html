@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>CH CHAITANYA</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />.
+    
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact-form">Contact me</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </header>
+    
+    
+    
+    <section id="home" class="home-div">
+        <div id="details">
+            <h1>CHITTIBILLI <br> CHAITANYA</h1>
+            <p><b>Hello,</b> I am chaitanya an enthusiastic web developer with a love for crafting captivating online experiences. I find joy in turning ideas into fully functional websites that not only look great but also deliver seamless user experiences</p>
+                <a class="btn" href="/my resume.pdf" download>Download CV</a>
+        </div>
+        <div id="image">
+            <img src="/photo1.jpg" alt="error">
+        </div>
+    </section>
+    <section id="about">
+        <h1>About Me</h1>
+        <div id="about-section">
+            <div id="details1" class="box">
+                <p>A passionate web developer and creative problem solver. With a love for crafting interactive and user-friendly websites, I find joy in merging technology with aesthetics to deliver seamless digital experiences. My journey in web development began with a curiosity for coding and a determination to solve real-world challenges through innovative solutions. </p>
+            </div>
+            <div id="experience">
+                <div id="semi-heading">
+                    <p onclick="showDetails('education')">Education</p>
+                    <p onclick="showDetails('skills')">Skills</p>
+                    <p onclick="showDetails('experience-details')">Experience</p>
+                </div>
+                <div id="my-details">
+                    <div id="education" style="display: block;">
+                        <ul>
+                            <li>
+                                <p id="year">2021-Current</p>
+                                <p>Indian Institute of Engineering Science and Technology, Shibpur</p>
+                            </li>
+                            <li>
+                                <p id="year">2019-2021</p>                       
+                                <p>Sasi Junior College, Velivennu</p>
+                            </li>
+                            <li>
+                                <p id="year">2018-2019</p>                       
+                                <p>Sasi English Medium College, Velivennu</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="skills">
+                        <ul>
+                            <li>
+                                <p id="year">Problem Solving</p>
+                                <p>Data Structures and Algorithms</p>
+                            </li>
+                            <li>
+                                <p id="year">Web Development</p>                       
+                                <p>Web Development and Designing</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="experience-details">
+                        <li>
+                            <p id="year">Oasis Infobyte</p>                       
+                            <p>Interning Web Development and Designing</p>
+                        </li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio">
+        <h1>My Projects</h1>
+        <div class="projects" id="divs">
+            <a>
+                <div class="project1" id="divs">
+                    <h3>Hospital Resource Management</h3>
+                    <!-- <h3>Connecting Users to the Nearest Suitable Healthcare</h3> -->
+                    <div class="textcontent" style="color: rgb(2, 2, 51);">
+                        The Hospital Resources Management project is a web application designed to enhance healthcare accessibility and efficiency by assisting users in locating the nearest hospitals suitable for their specific needs. The project addresses the critical challenge of promptly identifying nearby medical facilities during emergencies or when seeking specialized medical services.
+                    </div>
+                </div>
+            </a>
+            <a href="https://chaitanya2369.github.io/landingpage-for-oiasis/" style="text-decoration: none;" target="_blank">
+                <div class="project1" id="divs" style="background-image: url(/landingpage.avif);">
+                    <h3>Landing Page</h3>
+                    <div class="textcontent" style="color: rgb(252, 252, 252);">
+                        Designed and developed a captivating landing page for ElectriCruisers, featuring a curated selection of eco-friendly electric vehicles. Implemented user-friendly navigation, engaging visuals, and compelling call-to-action buttons to drive user engagement and promote sustainable transportation solutions. Contributed encouraging environmentally conscious consumer actions.
+                    </div>
+                </div>
+            </a>
+            <a href="https://chaitanya2369.github.io/calculator-project/" style="text-decoration: none;" target="_blank">
+                <div class="project1" id="divs"  style="background-image: url(/calculator.avif);">
+                    <h3 style="color: white;">Calculator</h3>
+                    <div class="textcontent" style="padding: 10px;"> 
+                        Created an intuitive and functional calculator project with a sleek user interface, providing users with a seamless experience for performing various mathematical operations. Utilized HTML, CSS, and JavaScript to implement the calculator's functionalities and enhance user engagement.
+                    </div>           
+                </div>
+            </a>
+            <a href="https://chaitanya2369.github.io/calci-or-oiasis/" style="text-decoration: none;" target="_blank">
+                <div class="project1" id="divs" style="background-image: url(/temperature.jpg);">
+                    <h3>Temperature Converter</h3>
+                    <div class="textcontent" style="color: black;">
+                        Developed a user-friendly temperature converter application, allowing users to effortlessly convert between different temperature units. Utilizing HTML, CSS, and JavaScript, I crafted an intuitive interface that ensures a smooth and efficient conversion process, enhancing the overall user experience
+                    </div>
+                </div>
+            </a>
+        </div>
+    </section>
+    <section id="contact-form">
+        <h1>Contact</h1>
+        <div id="contact">
+            <div class="contact-us">
+                <form action="mailto:chittibillichaitanya@gmail.com">
+                    <label for="email">Enter Your Email</label><br>
+                    <input type="email" name="email" id="email" required><br>
+                    <label for="message">Enter the Message</label><br>
+                    <textarea name="message" id="text-message" width="100%" rows="10" placeholder="Your Message" required></textarea><br>
+                    <div class="btn1">
+                        <button type="button" onclick="submitForm()">Submit</button>
+                    </div>
+                </form>
+            </div>
+            <div class="follow-us">
+                <div id="contact-info">
+                    <h2>Mail to:</h2>
+                    <a href="mailto:chittibillichaitanya@gmail.com">chittibillichaitanya@gmail.com</a>
+                    <h2 style="margin-top: 10px;">Contact:</h2>
+                    <a href="tel:+91 8125455369">Call Me</a>
+                </div>
+                <h2 style="margin-top: 10px;">Follow me on:</h2>
+                <div class="icons">
+                    <div id="icon" class="icon-facebook">
+                        <a href="https://www.facebook.com/chaitanya.chettubilli" target="_blank">
+                            <i class="fab fa-facebook" id="facebook"></i>
+                        </a>
+                    </div>
+                    <div id="icon">
+                        <a href="https://www.linkedin.com/in/chittibilli-chaitanya-88027a229/" target="_blank">
+                            <i class="fab fa-linkedin" id="linkedin"></i>
+                        </a>
+                    </div>
+                    <div id="icon">
+                        <a href="https://twitter.com/chettubilli" target="_blank">
+                            <i class="fab fa-twitter" id="twitter"></i>
+                        </a>
+                    </div>
+                    <div id="icon">
+                        <a href="https://instagram.com/chaitanya_7979" target="_blank">
+                            <i class="fab fa-instagram" id="instagram"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+  $(document).ready(function () {
+    $(".project1").hover(
+      function () {
+        $(this).find(".textcontent").css("bottom", "0"); 
+      },
+      function () {
+        $(this).find(".textcontent").css("bottom", "-100%");
+      }
+    );
+  });
+</script>
+    <script>
+        function showDetails(section) {
+            var detailsDivs = document.querySelectorAll("#my-details > div");
+            detailsDivs.forEach(function(div) {
+                div.style.display = "none";
+            });
+
+            document.getElementById(section).style.display = "block";
+        }
+        function submitForm(){
+            var email = document.getElementById('email').value;
+            var message = document.getElementById('text-message').value;
+            var subject = "Contact Form Submission";
+            var mailtoLink = "mailto:chittibillichaitanya@gmail.com" + "?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent("Email: " + "\n\n" + "Message: " + message);
+            window.location.href = mailtoLink;
+        }
+
+const menuToggle = document.querySelector('.menu-toggle');
+const menu = document.querySelector('.menu');
+const bars = document.querySelectorAll('.bar');
+const menuLinks = document.querySelectorAll('.menu a'); 
+
+menuToggle.addEventListener('click', () => {
+    menuToggle.classList.toggle('active');
+    bars.forEach(bar => bar.classList.toggle('active'));
+    menu.classList.toggle('active');
+});
+
+menuLinks.forEach(link => {
+    link.addEventListener('click', () => {
+        menuToggle.classList.remove('active'); 
+        bars.forEach(bar => bar.classList.remove('active')); 
+        menu.classList.remove('active'); 
+    });
+});
+
+
+    </script>
+</body>
+</html>
