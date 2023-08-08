@@ -13,6 +13,7 @@ header {
     justify-content: center;
     align-items: center;
     background-color: #000000;
+    /* backdrop-filter: blur(5px); */
     padding: 10px 20px;
     position: fixed;
     top: 0;
@@ -243,7 +244,7 @@ img{
 }
 
 .project1{
-    background-image: url(hospital.jpg);
+    background-image: url(/hospital.jpg);
     background-size:cover;
     background-repeat: no-repeat;
 
@@ -399,7 +400,7 @@ button:hover{
         margin-left: 5px;
     }
     .btn{
-        margin-left:5px;
+        margin-left: 5px;
         width:25px;
     }
 
@@ -422,10 +423,9 @@ button:hover{
         justify-content: center;
         align-items: center;
         z-index: 998;
-        transition: transform 0.4s ease-in-out;
+        transition: transform 0.4s ease-in-out; /* Added transition property */
         transform: translateY(-100%);
     }
-
     .menu.active {
         display: flex;
         transform: translateY(0%); 
