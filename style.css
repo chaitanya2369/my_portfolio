@@ -399,7 +399,7 @@ button:hover{
         margin-left: 5px;
     }
     .btn{
-        /* display: block; */
+        margin-left:5px;
         width:25px;
     }
 
