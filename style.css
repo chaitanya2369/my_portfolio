@@ -393,9 +393,11 @@ button:hover{
     }
     #home h1{
         font-size: 40px;
+        margin-left: 5px;
     }
     #home p{
         font-size: 20px;
+        margin-left: 5px;
     }
     .btn{
         /* display: block; */
@@ -447,6 +449,9 @@ button:hover{
         opacity: 0;
     }
     .projects{
+        padding: 0;
+    }
+    .projects #divs{
         padding: 0;
     }
     #portfolio h1{
